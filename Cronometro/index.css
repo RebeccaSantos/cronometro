@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#btn-ini{
+    background-color: rgb(133, 54, 133);
+}
+#btn-new{
+    background-color: rgb(53, 6, 114);
+}
+button{
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    border: none;
+    height: 4em;
+    width: 5em;
+    color: white;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
+
+input{
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: 30pt;
+    height: 4em;
+    text-align: center;
+}
+input:checked{
+    border: none;
+}
